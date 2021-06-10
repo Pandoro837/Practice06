@@ -13,7 +13,7 @@ public class UserApp {
 	for(int i = 0; i < user.length; i++) {
 		user[i].showInfo();
 	}
-	
+	System.out.println(user[2].getName() + "의 월급은" + ((Employee)user[2]).getSalary() + "원 입니다.");
 	}
 
 }
