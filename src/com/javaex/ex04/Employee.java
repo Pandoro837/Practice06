@@ -28,5 +28,5 @@ public class Employee extends User{
 				+ this.salary);
 	}
 
-	
+	 
 }
